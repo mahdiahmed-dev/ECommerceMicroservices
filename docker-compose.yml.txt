@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  product-service:
+    build: ./ProductService
+    ports:
+      - "5268:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=ProductDb;Username=postgres;Password=postgres@db
+    depends_on:
+      - postgres
+
+  order-service:
+    build: ./OrderService
+    ports:
+      - "5270:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=mssql;Database=OrderDb;User=sa;Password=Passw0rd
+    depends_on:
+      - mssql
+      - product-service
+      - rabbitmq
+
+  notification-service:
+    build: ./NotificationService
+    ports:
+      - "5272:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoDb__ConnectionString=mongodb://mongo:27017
+      - MongoDb__Database=NotificationDb
+    depends_on:
+      - mongo
+      - rabbitmq
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres@db
+      POSTGRES_DB: ProductDb
+    ports:
+      - "5432:5432"
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql
+    environment:
+      SA_PASSWORD: Passw0rd
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672" 
+
+networks:
+  default:
+    name: ecommerce-network

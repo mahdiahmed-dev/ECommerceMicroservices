@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|c:\\users\\bedaia group\\source\\repos\\orderservice\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|c:\\users\\bedaia group\\source\\repos\\orderservice\\orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|c:\\users\\bedaia group\\source\\repos\\orderservice\\orderservice\\services\\productapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\services\\productapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|c:\\users\\bedaia group\\source\\repos\\orderservice\\orderservice\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|c:\\users\\bedaia group\\source\\repos\\orderservice\\orderservice\\configuration\\serviceurls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\configuration\\serviceurls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|c:\\users\\bedaia group\\source\\repos\\orderservice\\orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F287698F-E639-472C-BCE3-FCE64AF97BBA}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceUrls.cs",
+              "DocumentMoniker": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Configuration\\ServiceUrls.cs",
+              "RelativeDocumentMoniker": "OrderService\\Configuration\\ServiceUrls.cs",
+              "ToolTip": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Configuration\\ServiceUrls.cs",
+              "RelativeToolTip": "OrderService\\Configuration\\ServiceUrls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T13:34:45.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderService\\appsettings.json",
+              "ToolTip": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\appsettings.json",
+              "RelativeToolTip": "OrderService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T13:25:12.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Program.cs",
+              "RelativeDocumentMoniker": "OrderService\\Program.cs",
+              "ToolTip": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Program.cs",
+              "RelativeToolTip": "OrderService\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:25:07.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Services\\ProductApiClient.cs",
+              "RelativeDocumentMoniker": "OrderService\\Services\\ProductApiClient.cs",
+              "ToolTip": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Services\\ProductApiClient.cs",
+              "RelativeToolTip": "OrderService\\Services\\ProductApiClient.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:23:17.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Services\\OrderManager.cs",
+              "RelativeDocumentMoniker": "OrderService\\Services\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Services\\OrderManager.cs",
+              "RelativeToolTip": "OrderService\\Services\\OrderManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:25:45.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OrderService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\BEDAIA GROUP\\source\\repos\\OrderService\\OrderService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OrderService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:28:00.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
