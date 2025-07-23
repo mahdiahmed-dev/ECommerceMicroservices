@@ -1,12 +1,16 @@
-# .NET build folders
-bin/
-obj/
+# Build folders
+**/bin/
+**/obj/
 
 # User-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Visual Studio folders
+.vs/
+**/.vs/
 
 # Visual Studio Code
 .vscode/
@@ -48,7 +52,7 @@ coverage/
 *.coverage
 *.coveragexml
 
-# Ignore npm
+# Ignore npm logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
