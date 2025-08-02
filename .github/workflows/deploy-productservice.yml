@@ -25,6 +25,7 @@ jobs:
 
       - name: Build, tag, and push Docker image to ECR
         run: |
-          IMAGE_URI=046219898445.dkr.ecr.me-central-1.amazonaws.com/product-service:latest
-          docker build -t $IMAGE_URI ./ECommerceMicroservices/ProductService/ProductService
-          docker push $IMAGE_URI
+        IMAGE_URI=046219898445.dkr.ecr.me-central-1.amazonaws.com/product-service:latest
+        cd ProductService/ProductService
+        docker build -t $IMAGE_URI .
+        docker push $IMAGE_URI
