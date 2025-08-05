@@ -38,6 +38,7 @@ Thumbs.db
 
 # ASP.NET secrets or config overrides
 appsettings.Development.json
+appsettings.Production.json
 secrets.json
 
 # Publish output
