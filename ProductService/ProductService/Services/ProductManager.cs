@@ -20,7 +20,7 @@ namespace ProductService.Services
         public void Add(Product product)
         {
             if (product.Id == Guid.Empty)
-                product.Id = Guid.NewGuid();
+                product.Id = Guid.NewGuid(); // Optional fallback
 
             _dbContext.Products.Add(product);
             _dbContext.SaveChanges();
